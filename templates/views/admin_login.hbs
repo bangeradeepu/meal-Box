@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MealBox</title>
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+<style type="text/css">
+	
+</style>
+<body style="background-color: white;">
+	
+    <ul class="nav navbar-nav pull-right">
+        <li><a style="color:grey;" onclick="history.back()"><span class="glyphicon glyphicon-chevron-left"></span></a></li>
+        <li><a style="color:grey;" onclick="history.forward()"><span class="glyphicon glyphicon-chevron-right"></span></a></li>
+      </ul>
+      
+ <div class="container-fluid">
+     <br>  
+   <div class="col-sm-4">
+      <div class="carousel-inner" >
+      <div class="item active">
+        <img src="images/mealwallcross_white.png" width="3500" height="1000" style="-webkit-filter: blur(5px);  filter: blur(5px);">       
+      </div>
+  </div>
+   </div>
+   <div class="col-sm-5">
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+    <div class="cols-sm-4">
+        <div class="panel-group">
+    <div class="panel panel-danger">
+        <div class="panel-heading text-center"><h3>Admin Login</h3></div>
+        <div class="panel-body">
+            <form action="admin_login" method="POST">
+                <div class="form-group">
+                    <label for="user">Enter User name: </label>	
+                    <input type="text" name="username" class="form-control input-lg" placeholder="Enter Uusername" id="user" required>
+                    <br>
+                    <label for="pass">Enter Password: </label>
+                    <input type="password" name="password" class="form-control input-lg" placeholder="Enter Password" id="pass" required>
+                    <br>
+                    <center><button class="btn btn-danger btn-lg" type="submit">Login</button></center>	
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+    </div>
+     
+    </div>
+
+ </div>
+</body>
+</html>
